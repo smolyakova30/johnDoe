@@ -2,6 +2,10 @@
     background-color: #fbfbfb;
 }
 
+.navbar-toggler{
+    margin-left: 10px;
+}
+
 .firstPart{
     display: flex;
     background-color: #fbfbfb;
@@ -106,13 +110,102 @@
     color: grey;
 }
 
-h6::after {
+.h6after::after {
     content: " ";
     border: dashed;
     display: block;
     width: 50px;
     margin-top: 20px;
 }
+.projecttitleH4{
+    color: #E04343;
+}
 
+.projectsTitleBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 70px;   
+    padding-bottom: 20px;  
+}
+
+.containerProjects1{
+    display: flex;
+    justify-content: center;
+}
+
+.containerProjects2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.projectImg{
+    padding: 5px;
+    filter: grayscale(100%);
+}
+
+.projectImg:hover{
+    filter:none; 
+}
+
+.hireButonContainer{
+    margin: 0;
+    padding: 20px;
+    background-color: #E04343;
+    display: flex;
+    justify-content: center;
+}
+
+.hireButton{
+    background-color: #E04343;
+    color: #FFE800;
+    border: solid 2px #FFE800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hireButton:hover{
+    background-color: #FFE800;
+    color: #E04343;
+}
+
+.blogContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom:70px;
+}
+
+.blogImg{
+    padding-bottom: 15px;
+    filter: brightness(50%);
+}
+
+.blogImg:hover{
+    filter: brightness(100%);
+}
+
+.blogTitle{
+    text-align: center;
+}
+
+.BlogBoxes {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+.blogBox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+   
+}
 
 
