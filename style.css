@@ -1,0 +1,118 @@
+.navbar {
+    background-color: #fbfbfb;
+}
+
+.firstPart{
+    display: flex;
+    background-color: #fbfbfb;
+}
+
+.firstPartText {
+    margin: auto;
+    padding-left: 170px;
+    
+}
+
+.johnDoeText{
+    font-size: 80px;
+    padding: 0;
+    
+}
+
+.mainJohn {
+    width: 800px;
+}
+
+.littleAboutMe {
+    display: flex;
+    background-color: #E04343;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom:70px;
+    align-items: center;
+}
+
+.littleAboutMeTitle{
+    padding-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.littleAboutMeText {
+    padding-top: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.amazingThings{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom:70px;
+}
+
+.amazingThingsTitle{
+    text-align: center;
+}
+
+.amazingThingsBoxes {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+.amazingThingsBox{
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+
+}
+
+.nopadding1{
+    background-image: url(assets/about1.png);
+    background-size: cover;
+}
+
+.nopadding2{
+    background-image: url(assets/about2.png);
+    background-size: cover;
+}
+
+.nopadding3{
+    background-image: url(assets/about3.png);
+    background-size: cover;
+}
+.about-text{
+    padding: 50px;
+    background-color: #E04343;
+    color: white;
+}
+
+.about-text2{
+    padding: 50px;
+    background-color: white;
+    color: grey;
+}
+
+h6::after {
+    content: " ";
+    border: dashed;
+    display: block;
+    width: 50px;
+    margin-top: 20px;
+}
+
+
+
