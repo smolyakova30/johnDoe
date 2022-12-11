@@ -288,15 +288,13 @@
     }
 
     .BlogBoxes {
-        display: flex;
-        align-items: center;
         flex-wrap: wrap;
-        width: auto;
     }
 
     .cardBox{
         width: 180px;
         font-size: 10px;
+        margin: 2px;
     }
 
     
@@ -308,13 +306,23 @@
     }
 
     .cardContainer {
+        flex-direction: column;
         flex-wrap: wrap;
     }
+
 }
 
 @media all and(max-width:600px){
     .containerProjects1, .containerProjects2{
         flex-wrap: wrap;
+    }
+    
+    .johnDoeText{
+        font-size: 60px; 
+    }
+
+    .blogImg{
+        filter: none;
     }
 }
 
