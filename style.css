@@ -6,6 +6,17 @@
     margin-left: 10px;
 }
 
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-item:hover{
+    text-decoration: none;
+    border-bottom: 1px solid #FFE800;
+    width: fit-content;
+    
+}
+
 .firstPart{
     display: flex;
     background-color: #fbfbfb;
