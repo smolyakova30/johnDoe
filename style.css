@@ -27,6 +27,10 @@
     width: 800px;
 }
 
+.workText {
+    color: #E04343;
+}
+
 .littleAboutMe {
     display: flex;
     background-color: #E04343;
@@ -206,6 +210,46 @@
     text-align: center;
     padding: 20px;
    
+}
+.nopaddingClients{
+    background-image: url("assets/clients.png");
+    background-size: cover;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom:70px;
+    background-color: #E04343;
+}
+
+.contactTitle{
+    text-align: center;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.cardBox{
+    background-color: white;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border: solid #FFE800 2px;
+    padding: 10px;
+}
+
+.cardBox:hover{
+    border: solid black 2px;
+}
+
+.contactText{
+    color: grey;
 }
 
 
