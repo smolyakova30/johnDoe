@@ -310,6 +310,10 @@
         flex-wrap: wrap;
     }
 
+    .blogImg{
+        filter: brightness(100%);
+    }
+
 }
 
 @media all and(max-width:600px){
